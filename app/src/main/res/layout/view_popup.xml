@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="#dddddd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="上传您的靓照"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+        <View
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="2px" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/ll_item_popup_one"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+                android:src="@mipmap/photo_take"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:text="拍照上传"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/iv_photo"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+        </LinearLayout>
+        <View
+              android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              android:background="#ffffff"
+              android:layout_width="match_parent"
+              android:layout_height="2px" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/ll_item_popup_two"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+                android:src="@mipmap/photo_sel"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:text="相册上传"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/iv_picture"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

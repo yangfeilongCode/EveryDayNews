@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <ImageView
+            android:id="@+id/iv_comment_icon"
+            android:src="@mipmap/biz_pc_main_info_profile_avatar_bg_dark"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:id="@+id/tv_comment_idName"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:textColor="#0000ff"
+            android:text="userName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_comment_time"
+            android:text="commentTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_comment_content"
+        android:gravity="center_vertical"
+        android:textSize="20dp"
+        android:text="commentContent"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+</LinearLayout>
+</LinearLayout>

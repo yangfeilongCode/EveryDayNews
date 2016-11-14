@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_login_name"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10sp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+     <android.support.design.widget.TextInputEditText
+         android:id="@+id/et_user_name"
+         android:background="@drawable/inpurt_edittext"
+         android:hint="  请输入用户昵称"
+         android:layout_width="match_parent"
+         android:layout_height="50dp" />
+    </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/til_login_word"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/et_user_password"
+        android:background="@drawable/inpurt_edittext"
+        android:hint="  密码:6到16位字符"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:paddingLeft="10dp"
+        android:paddingRight="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_user_login_register"
+            android:layout_marginRight="3px"
+            android:background="@drawable/button_selector"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:text="注册"
+            android:layout_width="0dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:id="@+id/tv_user_login_forget"
+            android:layout_marginRight="3px"
+            android:background="@drawable/button_selector"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:text="忘记密码"
+            android:layout_width="0dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:id="@+id/tv_user_login_login"
+            android:background="@drawable/button_selector"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:text="登录"
+            android:layout_width="0dp"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+</LinearLayout>
